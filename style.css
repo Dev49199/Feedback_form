@@ -1,0 +1,14 @@
+body 
+{
+	background-color: #ffcc66;
+}
+
+div{
+text-align: center;
+  background-color: lightgrey;
+  width: 80%;
+  border: 15px solid green;
+  padding: 5%;
+  margin: 5%;
+}
+
