@@ -2,7 +2,7 @@
 from tkinter import *
 from tkinter import ttk 
 from PIL import Image,ImageTk
-
+from tkinter import messagebox
 class Feedback:
 
 	def __init__(self,root):
@@ -84,6 +84,8 @@ class Feedback:
 			f.write(header+f_content+footer)
 
 		self.reset()
+		messagebox.showinfo(title = 'Given Feedback', message = 'Feedback Submitted!')
+
 
 
 
